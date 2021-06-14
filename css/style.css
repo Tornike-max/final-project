@@ -1,0 +1,204 @@
+/* background */
+.bg-img{
+    background-image: url(../images/dubai-33972181_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1120px;  
+    position: relative;
+}
+.nav-li{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 44px;
+}
+}
+.nav-div{
+    
+}
+.nav-a{
+    margin-left:140px;
+    color:#E2EAF0;
+}   
+.img{
+    padding-right: 410px;
+}
+.text-div{
+    width: 733px;
+    height: 164px;
+    margin-left:140px;
+    margin-top:175px;
+    
+}
+.text{
+    color:#FFFFFF;
+    font-size:60px;
+
+}
+.text1{
+    color:#FFFFFF;
+    font-size:60px;
+}
+.world{
+    width: 674px;
+    height:80px;
+    margin-left:140px;
+    margin-top:36px;
+}
+.hello{
+    color:#EFD6AC;
+    font-size:20px;
+}
+.explore{
+    width:166px;
+    height:55px;
+    border:1px solid;
+    border-radius: 33px;
+    position: absolute;
+    margin-left:140px;
+    cursor: pointer;
+}
+.images{
+    width: 1397px;
+    height:512px;
+    display: flex;
+    margin-left:503px;
+    margin-top:250px;
+    position: absolute;
+}
+.ima{
+    position: relative;
+}
+.path{
+    width:292px;
+    height:159px;
+    background-color: white;
+    margin-left:140px;
+     
+}
+.travel{
+    color:#04151F;
+    font-size: 25px;
+
+}
+.sun{
+    font-size: 15px;
+    color: #04151F;
+    padding-top: 20px;
+}
+.section{
+    width:1900px;
+    height:1089px;
+    background-image: url(../images/burj-khalifa.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 30px;
+}
+.section-div{
+    width:828px;
+    height:733px;
+    background-color:#357AB4;
+    margin-left:219px;
+    padding-top:100px;
+    border-radius: 20px;
+}
+.burj{
+    font-size:25px ;
+    color: #C49D48;
+    padding-left:76px;
+    padding-top:71px;
+}
+.khalifa{
+    font-size:16px;
+    color:#C49D48;
+    padding-top:63px;
+}
+.small-img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 63px;
+}
+.marhaba{
+    width:1400px;
+    height:158px;
+    background-color: #357AB4;
+    margin-top:350px;
+}
+.means{
+    font-size:60px;
+    color:#C49D48;
+    padding-left:660px;
+}
+.meaning{
+    font-size:30px;
+    color:#C49D48;
+    padding-left:260px;
+}
+.mean{
+    font-size: 60px;
+    color:#C49D48;
+    padding-left:560px;
+}
+.section-map{
+    width:1900px;
+    height:825px;
+    display: flex;
+}
+.map.div{
+    width:835px;
+    height:810px;
+}
+.map{
+    width: 830px;
+    width:800px;
+}
+.palms-title{
+
+}
+.box{
+    width:1090px;
+    height:800px;
+}
+.palms{
+    width:684px;
+    height:645.78px;
+    padding-top:28px;
+}
+.palms-title{
+    margin-top:75px;
+    margin-left:122px;
+    color:#04151F;
+    font-size:25px;
+}
+.palms-text{
+    padding-top:24px;
+    padding-left:122px ;
+    color:#04151F;
+    font-size:16px;
+}
+.real{
+    width:310px;
+    height:345px;
+    align-items: center;
+    margin-left:720px;
+    margin-top:-500px;
+}
+.cost{
+    color:#04151F;
+    font-size: 26px;
+}
+.lunch{
+    color:#04151F;
+    font-size: 16px;
+    padding-top:32px;
+}
+.pay{
+    width:200px;
+    height:60px;
+    border:1px solid;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #C49D48;
+}
