@@ -12,7 +12,7 @@
     vertical-align: middle;
     margin-top: 44px;
 }
-}
+
 .nav-div{
     
 }
@@ -202,3 +202,99 @@
     cursor: pointer;
     background-color: #C49D48;
 }
+.arabic{
+    font-size:35px;
+    color:#C49D48;
+    margin-left:760px;
+    margin-top:50px;
+}
+.emirates{
+    font-size:35px;
+    color:#C49D48;
+    margin-left:745px;
+    margin-top:10PX;
+}
+.east{
+    font-size:30px;
+    color:#C49D48;
+    margin-left:450px;
+    margin-top:5px;
+}
+.dubai1{
+    width:680px;
+    height:150px;
+    margin-left:585px;
+    font-size:20px;
+    color:#C49D48;
+    margin-top:10px;
+}
+.section3{
+    width:1900;
+    height:1118px;
+}
+.section-div3{
+    width:1727px;
+    height:1070px;
+    margin-top:70px;
+    margin-left:100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.build1{
+    margin-top:0px;
+    width:436.58px;
+    height: 399.78px;
+}
+.build2{
+    width:436.58px;
+    height:310.82px;
+    margin-top:0px;
+    
+}
+.build3{
+    width:325.94px;
+    height:720px;
+}
+.build4{
+    width:436.58px;
+    height:399.78px;
+}
+.build5{
+    width:436.58px;
+    height:399.78px;
+    
+}
+.building5{
+    margin-top:-320px;
+}
+.build6{
+    width:436.58px;
+    height:345.78px;
+    margin-top:-76px;
+}
+.building6{
+    margin-top:-520px;
+}
+.build7{
+    width:436.94px;
+    height:634.97px;
+    margin-left:326px;
+    margin-top:-320px;
+
+}
+.build8{
+    width:436.1px;
+    height:222px;
+    margin-top:-320px;
+}
+.build9{
+    width:436.58px;
+    height:365.82px;
+    margin-top:-462px;
+}
+.build10{
+    width:325.94px;
+    height:310.82px;
+    margin-top:-395px;
+}
+
