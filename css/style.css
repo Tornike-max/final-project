@@ -297,4 +297,179 @@
     height:310.82px;
     margin-top:-395px;
 }
-
+.footer{
+    max-width:1900px;
+    width:100%;
+    height:265px;
+}
+.city-box{
+    background-image: url(../images/city.jpg);
+    max-width:1900px;
+    width:100%;
+    height:264px;
+    position: absolute;
+}
+.footer-title{
+    position: relative;
+    font-size:25px;
+    color:#E2EAF0;
+    display: flex;
+    justify-content: center;
+    margin-top:54px;
+}
+.email{
+    position: relative;
+    font-size:25px;
+    color:#E2EAF0;;
+    display: flex;
+    justify-content: center;
+    margin-top:4px;
+    
+}
+.email1{
+    width:674px;
+    height:55px;
+    margin-left:600px;
+    margin-top:10px;
+    font-size:20px;
+    
+}
+.submit1{
+    width:260px;
+    height:195;
+    background-color:#C49D48;
+    font-size:35px;
+    color:#E2EAF0;
+}
+.last{
+    width:1900px;
+    height:380px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer1{
+    width:1900px;
+    height:380px;
+}
+.last-logo{
+    width:32px;
+    height:32px;
+    margin-top:124px;
+    margin-left:351px;
+}
+.last-title{
+    font-size:30px;
+    color:#C49D48;
+    margin-top:125px;
+    margin-left:5px;
+}
+.privacy{
+    color:#688095;
+    font-size:16px;
+}
+.privacy1{
+    width:341px;
+    height:78px;
+    margin-top:180px;
+    margin-left:-120px;
+}
+.last-list{
+    width:168px;
+    height:228px;
+    margin-top:124px;
+    margin-left:138px;
+    display: flex;
+    flex-direction: column;
+}
+.popular{
+    font-size:20px;
+    color:#688095;
+    margin-bottom: 35px;
+}
+.explore1{
+    font-size:16px;
+    color:#AAA9A9;
+}
+.things{
+    font-size:16px;
+    color:#AAA9A9;
+    
+}
+.on{
+    font-size:16px;
+    color:#AAA9A9;
+    padding-top:10px;
+}
+.articles{
+    font-size:16px;
+    color:#AAA9A9;
+    padding-top:10px;
+}
+.visit{
+    font-size:16px;
+    color:#AAA9A9;
+    padding-top:10px;
+}
+.helpful-div{
+    max-width:168px;
+    width:100%;
+    height:228px;
+    margin-top:124px;
+    display: flex;
+    flex-direction: column;
+    margin-left:177px;
+}
+.info{
+    font-size:20px;
+    color:#688095;
+    margin-bottom: 35px;
+}
+.plan{
+    font-size:16px;
+    color:#AAA9A9;
+}
+.guide{
+    font-size:16px;
+    color:#AAA9A9;
+    padding-top:10px;
+}
+.contactus{
+    font-size:16px;
+    color:#AAA9A9;
+    padding-top:10px;
+}
+.covid{
+    font-size:16px;
+    color:#AAA9A9;
+    padding-top:10px;
+}
+.business-div{
+    max-width:168px;
+    width:100%;
+    height:228px;
+    margin-top:124px;
+    display: flex;
+    flex-direction: column;
+    margin-left:177px;
+}
+.sites{
+    font-size:20px;
+    color:#688095;
+    margin-bottom: 35px;
+}
+.business{
+    font-size:16px;
+    color:#AAA9A9;
+    padding-top:10px;
+}
+.department{
+    font-size:16px;
+    color:#AAA9A9;
+    padding-top:10px;
+}
+.line{
+    max-width:1900px;
+    width:100%;
+    height:50px;
+    background-color:#688095;
+}
