@@ -473,3 +473,86 @@
     height:50px;
     background-color:#688095;
 }
+.us{
+    max-width:1000px;
+    width:100%;
+    height:900px;
+    margin-left:150px;
+    margin-top:150px;
+    display: flex;
+}
+
+.about-text{
+    font-size:30px;
+    color:#04151F;
+    
+}
+.active{
+    color:#C49D48;
+}
+.info-us{
+    margin-left:70px;
+}
+.us-info{
+    background-color:#C49D48 ;
+    max-width:500px;
+    width:100%;
+    height:250px;
+    margin-left:100px;
+    margin-top:150px;
+    border:1px solid;
+    border-radius: 50px;
+}
+.map-divv{
+    margin-left:100px;
+    margin-top:50px;
+    display: flex;
+}
+.map-p{
+    width:350px;
+    height:350px;
+    margin-left:150px;
+    font-size:25px;
+    color:#04151F;
+    margin-top:50px;
+}
+.blog-text{
+    width:830px;
+    height:800px;
+    font-size:25px;
+    margin-left:100px;
+    margin-top:150px;
+}
+.question-div{
+    width:500px;
+    height:900px;
+}
+.first-contact{
+    font-size:30px;
+    color:#04151F;
+    margin-left:300px;
+    margin-top:200px;
+}
+.questions{
+    font-size:20px;
+    color:#0F161A;
+    margin-left:300px;
+    padding-top: 15px;
+    
+}
+.contact-divv{
+    display: flex;
+}
+.number-div{
+    margin-top:200px;
+    margin-left:330px;
+}
+.number-h{
+    font-size:30px;
+    color:#04151F;
+}
+.main-number{
+    font-size:20px;
+    color:#0F161A;
+    padding-top: 15px;
+}
