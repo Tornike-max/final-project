@@ -1,0 +1,716 @@
+@media only screen and (max-width: 1679px){
+    .images img{
+        width:100%;
+
+    }
+    .images{
+        margin-left:0px;
+    }
+    .path{
+        display: none;
+    }
+    .text-div{
+        width:100%;
+        font-size:30px !important; 
+    }
+    .text{
+        font-size:30px;
+    }
+    .text1{
+        font-size:30px;
+    }
+    .world{
+        padding-right:100px;
+    }
+    .section-div{
+        margin-left:100px;
+    }
+    .marhaba{
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:350px;
+        width:1000px;
+        
+    }
+    .means{
+        font-size:30px;
+    }
+    .meaning{
+        font-size:30px;
+    }
+    .mean{
+        font-size:30px;
+    }
+    .section-div3 img{
+        width:100%;
+    }
+    .map{
+        width:565px;
+        height:650px;
+    }
+    .map-div{
+        width:550px;
+        
+    }
+    .box{
+        width:500px;
+        height:450px;
+        display: flex;
+        flex-direction: column;
+    }
+    .palms-title{
+        font-size:15px;
+       
+    }
+    .palms-text{
+        font-size:15px;
+    }
+}
+@media only screen and (max-width: 1449px){
+    .images img{
+        width:100%;
+
+    }
+    .images{
+        margin-left:0px;
+    }
+    .path{
+        display: none;
+    }
+    .text-div{
+        width:100%;
+        font-size:30px !important; 
+    }
+    .text{
+        font-size:30px;
+    }
+    .text1{
+        font-size:30px;
+    }
+    .world{
+        padding-right:100px;
+    }
+    .section-div{
+        margin-left:100px;
+    }
+    .marhaba{
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:350px;
+        width:1000px;
+        
+    }
+    .means{
+        font-size:30px;
+    }
+    .meaning{
+        font-size:30px;
+    }
+    .mean{
+        font-size:30px;
+    }
+    .section-div3 img{
+        width:100%;
+    }
+    .map{
+        width:565px;
+        height:650px;
+    }
+    .map-div{
+        width:550px;
+        
+    }
+    .box{
+        width:500px;
+        height:450px;
+        display: flex;
+        flex-direction: column;
+    }
+    .palms-title{
+        font-size:15px;
+       
+    }
+    .palms-text{
+        font-size:15px;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .images img{
+        width:100%;
+
+    }
+    .images{
+        margin-left:0px;
+    }
+    .path{
+        display: none;
+    }
+    .text-div{
+        width:100%;
+        font-size:30px !important; 
+    }
+    .text{
+        font-size:30px;
+    }
+    .text1{
+        font-size:30px;
+    }
+    .world{
+        padding-right:100px;
+    }
+    .section-div{
+        margin-left:100px;
+    }
+    .marhaba{
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:350px;
+        width:900px;
+            
+    }
+    .means{
+        font-size:30px;
+        padding-left:450px;
+    }
+    .meaning{
+        font-size:30px;
+        padding-left:200px;
+    }
+    .mean{
+        font-size:30px;
+        padding-left:400px;
+    }
+    .section-div3 img{
+        width:100%;
+    }
+    .map{
+        width:465px;
+        height:650px;
+    }
+    .map-div{
+        width:550px;
+        
+    }
+    .box{
+        width:465px;
+        height:450px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .palms-title{
+        font-size:15px;
+       
+    }
+    .palms-text{
+        font-size:15px;
+    }
+    .real{
+        display: none;
+    }
+    .arabic{
+        font-size:25px;
+        margin-left:420px;
+    }
+    .emirates{
+        font-size:25px;
+        margin-left:400px;
+    }
+    .east{
+        font-size:25px;
+        margin-left:120px;
+    }
+    .dubai1{
+        width:490px;
+        margin-left:285px;
+    }
+}
+@media only screen and (max-width: 946px){
+    .images img{
+        width:100%;
+
+    }
+    .images{
+        margin-left:0px;
+    }
+    .path{
+        display: none;
+    }
+    .text-div{
+        width:100%;
+        font-size:30px !important; 
+    }
+    .text{
+        font-size:30px;
+    }
+    .text1{
+        font-size:30px;
+    }
+    .world{
+        padding-right:100px;
+    }
+    .section-div{
+        margin-left:100px;
+    }
+    .marhaba{
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:350px;
+        width:1000px;
+        
+    }
+    .means{
+        font-size:30px;
+    }
+    .meaning{
+        font-size:30px;
+    }
+    .mean{
+        font-size:30px;
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+    .images img{
+        width:100%;
+
+    }
+    .images{
+        margin-left:0px;
+    }
+    .path{
+        display: none;
+    }
+    .text-div{
+        width:100%;
+        font-size:30px !important; 
+    }
+    .text{
+        font-size:30px;
+    }
+    .text1{
+        font-size:30px;
+    }
+    .world{
+        padding-right:100px;
+    }
+    .section-div{
+        margin-left:50px;
+        width: 620px;
+    }
+    .marhaba{
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:350px;
+        width:600px;
+        border-radius:20px;
+        
+    }
+    .means{
+        font-size:30px;
+        padding-left:300px;
+    }
+    .meaning{
+        font-size:30px;
+        padding-left:100px;
+    }
+    .mean{
+        font-size:30px;
+        padding-left:250px;
+    }
+    .map{
+        width:400px;
+        
+    }
+    .real{
+        display: none;
+    }
+    
+}
+@media only screen and (max-width: 540px){
+    .images img{
+        width:100%;
+
+    }
+    .images{
+        margin-left:0px;
+    }
+    .path{
+        display: none;
+    }
+    .text-div{
+        width:100%;
+        font-size:30px !important; 
+    }
+    .text{
+        font-size:30px;
+    }
+    .text1{
+        font-size:30px;
+    }
+    .world{
+        padding-right:220px;
+
+    }
+    .explore{
+        margin-top:40px;
+    }
+    .section-div{
+        width:500px;
+        margin-left:20px;
+    }
+    .section-map{
+        display: flex;
+        flex-direction: column;
+    }
+    .map-div{
+        margin-top:20px;   
+    }
+    .map{
+        width:540px;
+        height:250px;
+    }
+    .box{
+        width:250px;
+        height:250px;
+        margin-top:20px;
+    }
+    .palms img{
+        width:540px;
+        height:250px;
+    }
+    .palms-title{
+        display: flex;
+        margin-left:60px;
+    }
+    .palms-text{
+        padding-left:20px;
+    }
+    .real{
+        margin-left:300px;
+        
+    }
+    .marhaba{
+        width:500px;
+        margin-top:140px;
+    }
+    .means{
+        font-size:30px;
+    }
+    .mean{
+        font-size:30px;
+    }
+    .meaning{
+        font-size:30px;
+    }
+    .arabic{
+        margin-left:180px;
+    }
+    .emirates{
+        margin-left:170px;
+    }
+    .east{
+        margin-left:100px;
+    }
+    .dubai1{
+        width:250px;
+    }
+    .dubai{
+        margin-left:-200px;
+    }
+}
+@media only screen and (max-width: 414px){
+    .images img{
+        width:100%;
+    }
+    .images{
+        margin-left:0px;
+    }
+    .path{
+        display: none;
+    }
+    .text-div{
+        width:100%;
+        font-size:30px !important; 
+    }
+    .text{
+        font-size:30px;
+    }
+    .text1{
+        font-size:30px;
+    }
+    .world{
+        padding-right:100px;
+    }
+    .section-div{
+        margin-left:0px;
+    }
+    .marhaba{
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:350px;
+        width:1000px;
+        
+    }
+    .means{
+        font-size:30px;
+    }
+    .meaning{
+        font-size:30px;
+    }
+    .mean{
+        font-size:30px;
+    }
+    .small-img img{
+        width:125px;
+    }
+    .burj{
+        font-size:15px;
+       
+    }
+    .khalifa{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 411px){
+    .images img{
+        width:100%;
+
+    }
+    .images{
+        margin-left:0px;
+    }
+    .path{
+        display: none;
+    }
+    .text-div{
+        width:100%;
+        font-size:30px !important; 
+    }
+    .text{
+        font-size:30px;
+    }
+    .text1{
+        font-size:30px;
+    }
+    .world{
+        padding-right:100px;
+    }
+    .section-div{
+        margin-left:0px;
+    }
+    .marhaba{
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:350px;
+        width:1000px;
+        
+    }
+    .means{
+        font-size:30px;
+    }
+    .meaning{
+        font-size:30px;
+    }
+    .mean{
+        font-size:30px;
+    }
+    .small-img img{
+        width:125px;
+    }
+    .burj{
+        font-size:15px;
+       
+    }
+    .khalifa{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 375px){
+    .images img{
+        width:100%;
+    }
+    .images{
+        margin-left:0px;
+    }
+    .path{
+        display: none;
+    }
+    .text-div{
+        width:100%;
+        font-size:30px !important; 
+    }
+    .text{
+        font-size:30px;
+    }
+    .text1{
+        font-size:30px;
+    }
+    .world{
+        padding-right:100px;
+    }
+    .section-div{
+        margin-left:0px;
+    }
+    .marhaba{
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:350px;
+        width:1000px;
+        
+    }
+    .means{
+        font-size:30px;
+    }
+    .meaning{
+        font-size:30px;
+    }
+    .mean{
+        font-size:30px;
+    }
+    .small-img img{
+        width:125px;
+    }
+    .burj{
+        font-size:15px;
+       
+    }
+    .khalifa{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 360px){
+    .images img{
+        width:100%;
+
+    }
+    .images{
+        margin-left:0px;
+    }
+    .path{
+        display: none;
+    }
+    .text-div{
+        width:100%;
+        font-size:30px !important; 
+    }
+    .text{
+        font-size:30px;
+    }
+    .text1{
+        font-size:30px;
+    }
+    .world{
+        padding-right:100px;
+    }
+    .section-div{
+        margin-left:0px;
+    }
+    .marhaba{
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:350px;
+        width:1000px;
+        
+    }
+    .means{
+        font-size:30px;
+    }
+    .meaning{
+        font-size:30px;
+    }
+    .mean{
+        font-size:30px;
+    }
+    .small-img img{
+        width:125px;
+    }
+    .burj{
+        font-size:15px;
+       
+    }
+    .khalifa{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 320px){
+    .images img{
+        width:100%;
+
+    }
+    .images{
+        margin-right:0px;
+    }
+    .path{
+        display: none;
+    }
+    .text-div{
+        width:100%;
+        font-size:30px !important; 
+    }
+    .text{
+        font-size:30px;
+    }
+    .text1{
+        font-size:30px;
+    }
+    .world{
+        padding-right:100px;
+    }
+    .section-div{
+        margin-left:0px;
+    }
+    .marhaba{
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:350px;
+        width:1000px;
+        
+    }
+    .means{
+        font-size:30px;
+    }
+    .meaning{
+        font-size:30px;
+    }
+    .mean{
+        font-size:30px;
+    }
+    .small-img img{
+        width:125px;
+    }
+    .burj{
+        font-size:15px;
+       
+    }
+    .khalifa{
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -14,7 +14,7 @@
 }
 
 .nav-div{
-    
+    flex-wrap: wrap;
 }
 .nav-a{
     margin-left:140px;
@@ -24,23 +24,26 @@
     padding-right: 410px;
 }
 .text-div{
-    width: 733px;
+    max-width: 733px;
+    width: 100%;
     height: 164px;
     margin-left:140px;
     margin-top:175px;
-    
+    position: relative;
 }
 .text{
     color:#FFFFFF;
     font-size:60px;
-
+    width:100%;
+    
 }
 .text1{
     color:#FFFFFF;
     font-size:60px;
 }
 .world{
-    width: 674px;
+    max-width: 674px;
+    width:100%;
     height:80px;
     margin-left:140px;
     margin-top:36px;
@@ -50,7 +53,8 @@
     font-size:20px;
 }
 .explore{
-    width:166px;
+    max-width:166px;
+    width:100%;
     height:55px;
     border:1px solid;
     border-radius: 33px;
@@ -59,18 +63,25 @@
     cursor: pointer;
 }
 .images{
-    width: 1397px;
+    max-width: 1397px;
+    width: 100%;
     height:512px;
     display: flex;
     margin-left:503px;
     margin-top:250px;
-    position: absolute;
+    /* position: absolute; */
+    
+    
+}
+.border{
+    flex-wrap: wrap;
 }
 .ima{
     position: relative;
 }
 .path{
-    width:292px;
+    max-width:292px;
+    width: 100%;
     height:159px;
     background-color: white;
     margin-left:140px;
@@ -87,7 +98,8 @@
     padding-top: 20px;
 }
 .section{
-    width:1900px;
+    max-width:1900px;
+    width: 100%;
     height:1089px;
     background-image: url(../images/burj-khalifa.jpg);
     background-repeat: no-repeat;
@@ -96,7 +108,8 @@
     margin-top: 30px;
 }
 .section-div{
-    width:828px;
+    max-width:828px;
+    width:100%;
     height:733px;
     background-color:#357AB4;
     margin-left:219px;
@@ -142,27 +155,32 @@
     padding-left:560px;
 }
 .section-map{
-    width:1900px;
+    max-width:1900px;
+    width: 100%;
     height:825px;
     display: flex;
 }
 .map.div{
-    width:835px;
+    max-width:835px;
+    width: 100%;
     height:810px;
 }
 .map{
-    width: 830px;
+    max-width: 830px;
+    width:100%;
     width:800px;
 }
-.palms-title{
-
-}
 .box{
-    width:1090px;
+    max-width:1090px;
+    width: 100%;
     height:800px;
 }
+.small-img{
+    flex-wrap: wrap;
+}
 .palms{
-    width:684px;
+    max-width:684px;
+    width: 100%;
     height:645.78px;
     padding-top:28px;
 }
@@ -179,7 +197,8 @@
     font-size:16px;
 }
 .real{
-    width:310px;
+    max-width:310px;
+    width: 100%;
     height:345px;
     align-items: center;
     margin-left:720px;
@@ -195,7 +214,8 @@
     padding-top:32px;
 }
 .pay{
-    width:200px;
+    max-width:200px;
+    width:100%;
     height:60px;
     border:1px solid;
     border-radius: 30px;
@@ -221,7 +241,8 @@
     margin-top:5px;
 }
 .dubai1{
-    width:680px;
+    max-width:680px;
+    width:100%;
     height:150px;
     margin-left:585px;
     font-size:20px;
@@ -229,11 +250,13 @@
     margin-top:10px;
 }
 .section3{
-    width:1900;
+    max-width:1900;
+    width:100%;
     height:1118px;
 }
 .section-div3{
-    width:1727px;
+    max-width:1727px;
+    width:100%;
     height:1070px;
     margin-top:70px;
     margin-left:100px;
@@ -242,25 +265,30 @@
 }
 .build1{
     margin-top:0px;
-    width:436.58px;
+    max-width:436.58px;
+    width: 100%;
     height: 399.78px;
 }
 .build2{
-    width:436.58px;
+    max-width:436.58px;
+    width: 100%;
     height:310.82px;
     margin-top:0px;
     
 }
 .build3{
-    width:325.94px;
+    max-width:325.94px;
+    width:100%;
     height:720px;
 }
 .build4{
-    width:436.58px;
+    max-width:436.58px;
+    width:100%;
     height:399.78px;
 }
 .build5{
-    width:436.58px;
+    max-width:436.58px;
+    width:100%;
     height:399.78px;
     
 }
@@ -268,7 +296,8 @@
     margin-top:-320px;
 }
 .build6{
-    width:436.58px;
+    max-width:436.58px;
+    width:100%;
     height:345.78px;
     margin-top:-76px;
 }
@@ -276,24 +305,28 @@
     margin-top:-520px;
 }
 .build7{
-    width:436.94px;
+    max-width:436.94px;
+    width:100%;
     height:634.97px;
     margin-left:326px;
     margin-top:-320px;
 
 }
 .build8{
-    width:436.1px;
+    max-width:436.1px;
+    width: 100%;
     height:222px;
     margin-top:-320px;
 }
 .build9{
-    width:436.58px;
+    max-width:436.58px;
+    width:100%;
     height:365.82px;
     margin-top:-462px;
 }
 .build10{
-    width:325.94px;
+    max-width:325.94px;
+    width:100%;
     height:310.82px;
     margin-top:-395px;
 }
@@ -327,7 +360,8 @@
     
 }
 .email1{
-    width:674px;
+    max-width:674px;
+    width:1005;
     height:55px;
     margin-left:600px;
     margin-top:10px;
@@ -335,24 +369,28 @@
     
 }
 .submit1{
-    width:260px;
+    max-width:260px;
+    width:100%;
     height:195;
     background-color:#C49D48;
     font-size:35px;
     color:#E2EAF0;
 }
 .last{
-    width:1900px;
+    max-width:1900px;
+    width:100%;
     height:380px;
     display: flex;
     flex-wrap: wrap;
 }
 .footer1{
-    width:1900px;
+    max-width:1900px;
+    width:100%;
     height:380px;
 }
 .last-logo{
-    width:32px;
+    max-width:32px;
+    width:100%;
     height:32px;
     margin-top:124px;
     margin-left:351px;
@@ -368,13 +406,15 @@
     font-size:16px;
 }
 .privacy1{
-    width:341px;
+    max-width:341px;
+    width:100%;
     height:78px;
     margin-top:180px;
     margin-left:-120px;
 }
 .last-list{
-    width:168px;
+    max-width:168px;
+    width:100%;
     height:228px;
     margin-top:124px;
     margin-left:138px;
@@ -509,22 +549,26 @@
     display: flex;
 }
 .map-p{
-    width:350px;
+    max-width:350px;
+    width:100%;
     height:350px;
     margin-left:150px;
     font-size:25px;
     color:#04151F;
     margin-top:50px;
 }
+
 .blog-text{
-    width:830px;
+    max-width:830px;
+    width: 100%;
     height:800px;
     font-size:25px;
     margin-left:100px;
     margin-top:150px;
 }
 .question-div{
-    width:500px;
+    max-width:500px;
+    width: 100%;
     height:900px;
 }
 .first-contact{
@@ -542,17 +586,20 @@
 }
 .contact-divv{
     display: flex;
+      
 }
 .number-div{
     margin-top:200px;
-    margin-left:330px;
+    margin-left:350px;
 }
-.number-h{
+.number{
     font-size:30px;
-    color:#04151F;
 }
-.main-number{
+.first-number{
     font-size:20px;
-    color:#0F161A;
-    padding-top: 15px;
+    margin-top:15px;
+}
+.second-number{
+    font-size:20px;
+    margin-top:10px;
 }
