@@ -1,5 +1,6 @@
-@media only screen and (max-width: 1679px){
+@media only screen and (max-width: 1680px){
     .images img{
+        max-width:500px;
         width:100%;
 
     }
@@ -25,35 +26,29 @@
     .section-div{
         margin-left:100px;
     }
-    .marhaba{
-        margin-left:auto;
-        margin-right:auto;
-        margin-top:350px;
-        width:1000px;
-        
+    
+    .perfect{
+        font-size:40px;
     }
-    .means{
-        font-size:30px;
-    }
-    .meaning{
-        font-size:30px;
-    }
-    .mean{
-        font-size:30px;
+    .present{
+        font-size:40px;
     }
     .section-div3 img{
         width:100%;
     }
     .map{
-        width:565px;
+        max-width:565px;
+        width:100%;
         height:650px;
     }
     .map-div{
-        width:550px;
+        max-width:550px;
+        width:100%;
         
     }
     .box{
-        width:500px;
+        max-width:500px;
+        width:100%;
         height:450px;
         display: flex;
         flex-direction: column;
@@ -64,6 +59,16 @@
     }
     .palms-text{
         font-size:15px;
+    }
+    .form{
+        max-width:220px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .submit1{
+        max-width:250px;
     }
 }
 @media only screen and (max-width: 1449px){
@@ -97,31 +102,36 @@
         margin-left:auto;
         margin-right:auto;
         margin-top:350px;
-        width:1000px;
+        max-width:1000px;
+        width:100%;
         
     }
-    .means{
+    .present-div{
+        max-width:600px;
+        width:100%;
+    }
+    .perfect{
         font-size:30px;
     }
-    .meaning{
-        font-size:30px;
-    }
-    .mean{
+    .present{
         font-size:30px;
     }
     .section-div3 img{
         width:100%;
     }
     .map{
-        width:565px;
+        max-width:565px;
+        width:100%;
         height:650px;
     }
     .map-div{
-        width:550px;
+        max-width:550px;
+        width:100%;
         
     }
     .box{
-        width:500px;
+        max-width:500px;
+        width:100%;
         height:450px;
         display: flex;
         flex-direction: column;
@@ -132,6 +142,17 @@
     }
     .palms-text{
         font-size:15px;
+    }
+    .form{
+        max-width:200px;
+    }
+    .footer{
+        
+        display: flex;
+        flex-direction: column;
+    }
+    .submit1{
+        max-width:250px;
     }
 }
 @media only screen and (max-width: 1024px){
@@ -146,6 +167,7 @@
         display: none;
     }
     .text-div{
+        max-width:100%;
         width:100%;
         font-size:30px !important; 
     }
@@ -165,34 +187,36 @@
         margin-left:auto;
         margin-right:auto;
         margin-top:350px;
-        width:900px;
+        max-width:900px;
+        width:100%;
             
     }
-    .means{
-        font-size:30px;
-        padding-left:450px;
+    .present-div{
+        max-width:500px;
+        width:100%;
     }
-    .meaning{
-        font-size:30px;
-        padding-left:200px;
+    .perfect{
+        font-size:25px;
     }
-    .mean{
-        font-size:30px;
-        padding-left:400px;
+    .present{
+        font-size:25px;
     }
     .section-div3 img{
         width:100%;
     }
     .map{
-        width:465px;
-        height:650px;
+        max-width:465px;
+        width:100%;
+        height:350px;
     }
     .map-div{
-        width:550px;
+        max-width:550px;
+        width:100%;
         
     }
     .box{
-        width:465px;
+        max-width:465px;
+        width:100%;
         height:450px;
         display: flex;
         flex-direction: column;
@@ -221,8 +245,19 @@
         margin-left:120px;
     }
     .dubai1{
-        width:490px;
+        max-width:490px;
+        width:100%;
         margin-left:285px;
+    }
+    .form{
+        max-width:200px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .submit1{
+        max-width:230px;
     }
 }
 @media only screen and (max-width: 946px){
@@ -256,17 +291,29 @@
         margin-left:auto;
         margin-right:auto;
         margin-top:350px;
-        width:1000px;
+        max-width:1000px;
+        width:100%;
         
     }
-    .means{
-        font-size:30px;
+    .present-div{
+        max-width:400px;
+        width:100%;
     }
-    .meaning{
-        font-size:30px;
+    .perfect{
+        font-size:20px;
     }
-    .mean{
-        font-size:30px;
+    .present{
+        font-size:20px;
+    }
+    .form{
+        max-width:200px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .submit1{
+        max-width:220px;
     }
 }
 
@@ -277,13 +324,14 @@
 
     }
     .images{
-        margin-left:0px;
+        margin-left:0px;    
     }
     .path{
         display: none;
     }
     .text-div{
-        width:100%;
+        max-width:100%;
+        width: 100%;
         font-size:30px !important; 
     }
     .text{
@@ -297,34 +345,49 @@
     }
     .section-div{
         margin-left:50px;
-        width: 620px;
+        max-width: 620px;
+        width: 100%;
     }
     .marhaba{
         margin-left:auto;
         margin-right:auto;
         margin-top:350px;
-        width:600px;
+        max-width:600px;
+        width:100%;
         border-radius:20px;
         
     }
-    .means{
-        font-size:30px;
-        padding-left:300px;
+    .present-div{
+        max-width:400px;
+        width:100%;
     }
-    .meaning{
-        font-size:30px;
-        padding-left:100px;
+    .perfect{
+        font-size:20px;
     }
-    .mean{
-        font-size:30px;
-        padding-left:250px;
+    .present{
+        font-size:20px;
     }
     .map{
-        width:400px;
+        max-width:400px;
+        width:100px;
         
     }
     .real{
         display: none;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .form{
+        max-width:190px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .submit1{
+        max-width:200px;
     }
     
 }
@@ -335,6 +398,7 @@
     }
     .images{
         margin-left:0px;
+        
     }
     .path{
         display: none;
@@ -349,15 +413,25 @@
     .text1{
         font-size:30px;
     }
+    .hello{
+        margin-bottom: 180px;
+        margin-right:100px;
+    }
     .world{
-        padding-right:220px;
-
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        
     }
     .explore{
-        margin-top:40px;
+        margin-top:-10px;
+        margin-right:270px;
+        
     }
     .section-div{
-        width:500px;
+        max-width:500px;
+        width:100%;
         margin-left:20px;
     }
     .section-map{
@@ -368,16 +442,19 @@
         margin-top:20px;   
     }
     .map{
-        width:540px;
+        max-width:540px;
+        width:100%;
         height:250px;
     }
     .box{
-        width:250px;
+        max-width:250px;
+        width:100%;
         height:250px;
         margin-top:20px;
     }
     .palms img{
-        width:540px;
+        max-width:540px;
+        width:100%;
         height:250px;
     }
     .palms-title{
@@ -391,18 +468,20 @@
         margin-left:300px;
         
     }
-    .marhaba{
-        width:500px;
-        margin-top:140px;
+    
+    .present-div{
+        max-width:400px;
+        width:100%;
+        display: flex;
+        align-items: center;
     }
-    .means{
-        font-size:30px;
+    .perfect{
+        font-size:20px;
+       
     }
-    .mean{
-        font-size:30px;
-    }
-    .meaning{
-        font-size:30px;
+    .present{
+        font-size:20px;
+        
     }
     .arabic{
         margin-left:180px;
@@ -414,10 +493,21 @@
         margin-left:100px;
     }
     .dubai1{
-        width:250px;
+        max-width:250px;
+        width:100%;
     }
     .dubai{
         margin-left:-200px;
+    }
+    .form{
+        max-width:190px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .submit1{
+        max-width:190px;
     }
 }
 @media only screen and (max-width: 414px){
@@ -448,20 +538,23 @@
          font-size:20px;
     }
     .explore{
-        width:100px;
+        max-width:100px;
+        width:100%;
         height:50px;
         margin-left:150px;
         
     }
     .section-div{
         margin-left:0px;
-        width:415px;
+        max-width:415px;
+        width:100%;
     }
     .marhaba{
         margin-left:auto;
         margin-right:auto;
         margin-top:325px;
-        width:415px;
+        max-width:415px;
+        width:100%;
         height:100px;
         
     }
@@ -481,10 +574,12 @@
         margin-top:0px;
     }
     .map{
-        width:414px;
+        max-width:414px;
+        width:100%;
     }
     .box{
-        width:414px;
+        max-width:414px;
+        width:100%;
     }
     .arabic{
         margin-left:110px;
@@ -496,14 +591,16 @@
         margin-left:30px;
     }
     .dubai1{
-        width:150px;
+        max-width:150px;
+        width:100%;
     }
     .dubai{
         margin-left:-270px;
         font-size:15px;
     }
     .small-img img{
-        width:125px;
+        max-width:125px;
+        width:100%;
     }
     .burj{
         font-size:15px;
@@ -512,6 +609,17 @@
     .khalifa{
         font-size: 15px;
     }
+    .form{
+        max-width:180px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .submit1{
+        max-width:170px;
+    }
+    
 }
 @media only screen and (max-width: 411px){
     .images img{
@@ -525,7 +633,8 @@
         display: none;
     }
     .text-div{
-        width:200px; 
+        max-width:200px; 
+        width:100%;
     }
     .text{
         font-size:20px;
@@ -537,29 +646,16 @@
     }
     .world{
         margin-left:130px;
-        width:350px;
+        max-width:350px;
+        width:100%;
     }
     .section-div{
         margin-left:0px;
     }
-    .marhaba{
-        margin-left:auto;
-        margin-right:auto;
-        margin-top:350px;
-        width:1000px;
-        
-    }
-    .means{
-        font-size:30px;
-    }
-    .meaning{
-        font-size:30px;
-    }
-    .mean{
-        font-size:30px;
-    }
+    
     .small-img img{
-        width:125px;
+        max-width:125px;
+        width:100%;
     }
     .burj{
         font-size:15px;
@@ -567,6 +663,16 @@
     }
     .khalifa{
         font-size: 15px;
+    }
+    .form{
+        max-width:170px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .submit1{
+        max-width:160px;
     }
 }
 @media only screen and (max-width: 375px){
@@ -580,7 +686,8 @@
         display: none;
     }
     .text-div{
-        width:200px;
+        max-width:200px;
+        width:100%;
         height:100px;
         margin-left:90px;
     }
@@ -600,7 +707,8 @@
         margin-top:100px;
     }
     .explore{
-        width:100px;
+        max-width:100px;
+        width:100%;
         height:50px;
         margin-left:140px;
     }
@@ -612,7 +720,8 @@
         margin-left:auto;
         margin-right:auto;
         margin-top:313px;
-        width:374px;
+        max-width:374px;
+        width:100%;
         height:100px;
         
     }
@@ -629,29 +738,25 @@
         margin-left:-110px;
     }
     .small-img img{
-        width:125px;
+        max-width:125px;
+        width:100%;
     }
     .map-div{
         margin-top:0px;
     }
     .map{
-        width:375px;
+        max-width:375px;
+        width:100%;
 
     }
     .box{
-        width:375px;
+        max-width:375px;
+        width:100%;
     }
-    .arabic{
-        margin-left:80px;
-    }
-    .emirates{
-        margin-left:70px;
-    }
-    .east{
-        margin-left:20px;
-    }
+   
     .dubai1{
-        width:80px;
+        max-width:80px;
+        width:100%;
     }
     .dubai{
         font-size:15px;
@@ -663,6 +768,16 @@
     }
     .khalifa{
         font-size: 15px;
+    }
+    .form{
+        max-width:150px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .submit1{
+        max-width:160px;
     }
 }
 @media only screen and (max-width: 360px){
@@ -677,7 +792,8 @@
         display: none;
     }
     .text-div{
-        width:200;
+        max-width:200;
+        width:100%;
     }
     .text{
         font-size:20px;
@@ -692,31 +808,19 @@
     .section-div{
         margin-left:0px;
     }
-    .marhaba{
-        margin-left:auto;
-        margin-right:auto;
-        margin-top:310px;
-        width:360px;
-        height:100px;
-        
-    }
-    .means{
-        font-size:20px;
-    }
-    .meaning{
-        font-size:20px;
-    }
-    .mean{
-        font-size:20px;
-    }
+    
+    
     .small-img img{
-        width:125px;
+        max-width:125px;
+        width:100%;
     }
     .map{
-        width:360px;
+        max-width:360px;
+        width:100%;
     }
     .box{
-        width:360px;
+        max-width:360px;
+        width:100%;
     }
     .arabic{
         font-size:20px;
@@ -728,7 +832,8 @@
         font-size:20px;
     }
     .duba1{
-        width:250px;
+        max-width:250px;
+        width:100%;
     }
     .dubai{
         font-size:10px;
@@ -740,6 +845,16 @@
     }
     .khalifa{
         font-size: 15px;
+    }
+    .form{
+        max-width:150px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .submit1{
+        max-width:160px;
     }
 }
 @media only screen and (max-width: 320px){
@@ -770,7 +885,8 @@
         margin-left:70px;
     }
     .explore{
-        width:100px;
+        max-width:100px;
+        width:100%;
         height:50px;
         margin-left:120px;
     }
@@ -778,32 +894,14 @@
         margin-left:0px;
         width:auto;
     }
-    .marhaba{
-        margin-left:auto;
-        margin-right:auto;
-        margin-top:200px;
-        max-width:300px;
-        width: 100%;
-        height:100px;
-        
-    }
-    .means{
-        font-size:20px;
-        padding-left:130px;
-    }
-    .meaning{
-        font-size:15px;
-        padding-left:30px;
-    }
-    .mean{
-        font-size:20px;
-        padding-left:100px;
-    }
+    
     .map{
-        width:302px;
+        max-width:302px;
+        width:100%;
     }
     .small-img img{
-        width:125px;
+        max-width:125px;
+        width:100%;
     }
     .burj{
         font-size:15px;
@@ -825,13 +923,53 @@
         margin-left:90px;
     }
     .dubai1{
-        width:100px;
+        max-width:100px;
+        width:100%;
     }
     .dubai{
         margin-left:-223px;
         font-size:15px;
-        width:300px;
+        max-width:300px;
+        width:100%;
     }
+    .present-div{
+        height:250px;
+    }
+    .last-title{
+        align-items: center;
+        
+    }
+    .form{
+        max-width:100px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .submit1{
+        max-width:250px;
+        width:100%;
+        font-size: 20px;
+        
+    }
+    .footer1{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .footer-title{
+        margin:0 auto;
+    }
+    .last{
+        margin-left:-70px;
+        
+    }
+   .last-list{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+   }
+    
 }
 
 

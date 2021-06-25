@@ -15,6 +15,10 @@
 
 .nav-div{
     flex-wrap: wrap;
+    /* position: fixed;
+    background-color: cornflowerblue;
+    z-index: 20;
+    width:100%; */
 }
 .nav-a{
     margin-left:140px;
@@ -61,15 +65,16 @@
     border-radius: 33px;
     position: absolute;
     margin-left:140px;
+    margin-top:60px;
     cursor: pointer;
 }
 .images{
-   
+    max-width:600px;
     width: 100%;
     height:512px;
     display: flex;
-    margin-left:503px;
-    /* position: absolute; */
+    margin-left:500px;
+    
     
     
 }
@@ -155,24 +160,53 @@
     padding-left:560px;
 }
 .section-map{
-    max-width:1900px;
-    width: 100%;
-    height:825px;
     display: flex;
+    justify-content: space-around;
+
 }
-.map.div{
-    max-width:835px;
+.present-div{
+    display: flex;
+    flex-direction: column;
+    width:800px;
+    height:500px;
+}
+.present{
+    font-size:30px;
+    color:#C49D48;
+    margin-top:30px;
+}
+.try{
+    max-width:100px;
     width: 100%;
-    height:810px;
+    height:60px;
+    background-color:#C49D48 ;
+    border:1px solid;
+    border-radius: 30px;
+    cursor: pointer;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-left:70px;
+    margin-top:50px;
 }
 .map{
     max-width: 830px;
     width:100%;
     width:800px;
 }
-.box{
-    width: 100%;
+.perfect{
+    font-size:50px;
+    color:#C49D48;
+}
+.image-bg{
+    background-image: url(../images/DB.jpg);
+    max-width:1900px;
+    width:100%;
     height:800px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
 }
 .small-img{
     flex-wrap: wrap;
@@ -199,9 +233,8 @@
     max-width:310px;
     width: 100%;
     height:345px;
-    align-items: center;
-    margin-left:720px;
-    margin-top:-500px;
+    
+    
 }
 .cost{
     color:#04151F;
@@ -220,8 +253,9 @@
     border-radius: 30px;
     cursor: pointer;
     background-color: #C49D48;
+    
 }
-.arabic{
+/* .arabic{
     font-size:35px;
     color:#C49D48;
     margin-left:760px;
@@ -238,92 +272,27 @@
     color:#C49D48;
     margin-left:450px;
     margin-top:5px;
+} */
+.section3{
+    
 }
 .dubai1{
     max-width:680px;
     width:100%;
     height:150px;
-    margin-left:585px;
     font-size:20px;
     color:#C49D48;
-    margin-top:10px;
+       
 }
 
 .section3 img {
     width: 100%;
 }
-
-.build1{
-    margin-top:0px;
-    max-width:436.58px;
-    width: 100%;
-    height: 399.78px;
-}
-.build2{
-    max-width:436.58px;
-    width: 100%;
-    height:310.82px;
-    margin-top:0px;
-    
-}
-.build3{
-    max-width:325.94px;
-    width:100%;
-    height:720px;
-}
-.build4{
-    max-width:436.58px;
-    width:100%;
-    height:399.78px;
-}
-.build5{
-    max-width:436.58px;
-    width:100%;
-    height:399.78px;
-    
-}
-.building5{
-    margin-top:-320px;
-}
-.build6{
-    max-width:436.58px;
-    width:100%;
-    height:345.78px;
-    margin-top:-76px;
-}
-.building6{
-    margin-top:-520px;
-}
-.build7{
-    max-width:436.94px;
-    width:100%;
-    height:634.97px;
-    margin-left:326px;
-    margin-top:-320px;
-
-}
-.build8{
-    max-width:436.1px;
-    width: 100%;
-    height:222px;
-    margin-top:-320px;
-}
-.build9{
-    max-width:436.58px;
-    width:100%;
-    height:365.82px;
-    margin-top:-462px;
-}
-.build10{
-    max-width:325.94px;
-    width:100%;
-    height:310.82px;
-    margin-top:-395px;
-}
 .footer{
     max-width:1900px;
     width:100%;
     height:265px;
+    flex-direction: column;
 }
 .city-box{
     background-image: url(../images/city.jpg);
@@ -331,6 +300,7 @@
     width:100%;
     height:264px;
     position: absolute;
+    
 }
 .footer-title{
     position: relative;
@@ -350,22 +320,36 @@
     
 }
 .email1{
-    max-width:674px;
-    width:1005;
-    height:55px;
-    margin-left:600px;
+    position: relative;
+    max-width:374px;
+    width:100%;
+    height:35px;
+    margin-left:200px;
     margin-top:10px;
     font-size:20px;
     
 }
 .submit1{
+    position: relative;
     max-width:260px;
     width:100%;
     height:195;
+    margin-left:100px;
     background-color:#C49D48;
     font-size:35px;
     color:#E2EAF0;
+    margin-top:20px;
 }
+.password{
+    position: relative;
+    max-width:374px;
+    height:30px;
+    width:100%;
+    height:195;
+    margin-top:5px;
+    margin-left:200px;
+}
+
 .last{
     max-width:1900px;
     width:100%;
