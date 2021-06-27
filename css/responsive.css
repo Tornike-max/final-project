@@ -41,18 +41,13 @@
         width:100%;
         height:650px;
     }
-    .map-div{
-        max-width:550px;
-        width:100%;
-        
-    }
-    .box{
+    /* .box{
         max-width:500px;
         width:100%;
         height:450px;
         display: flex;
         flex-direction: column;
-    }
+    } */
     .palms-title{
         font-size:15px;
        
@@ -71,7 +66,7 @@
         max-width:250px;
     }
 }
-@media only screen and (max-width: 1449px){
+@media only screen and (max-width: 1440px){
     .images img{
         width:100%;
 
@@ -98,14 +93,6 @@
     .section-div{
         margin-left:100px;
     }
-    .marhaba{
-        margin-left:auto;
-        margin-right:auto;
-        margin-top:350px;
-        max-width:1000px;
-        width:100%;
-        
-    }
     .present-div{
         max-width:600px;
         width:100%;
@@ -124,18 +111,13 @@
         width:100%;
         height:650px;
     }
-    .map-div{
-        max-width:550px;
-        width:100%;
-        
-    }
-    .box{
+    /* .box{
         max-width:500px;
         width:100%;
         height:450px;
         display: flex;
         flex-direction: column;
-    }
+    } */
     .palms-title{
         font-size:15px;
        
@@ -156,19 +138,44 @@
     }
 }
 @media only screen and (max-width: 1024px){
+    
+    .last-logo {
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+
+    .last-title {
+        margin-top: 50px;
+    }
+
+
+    .privacy1 {
+        margin-top: 100px;
+    }
+
     .images img{
-        width:100%;
+        width:256px;
 
     }
     .images{
         margin-left:0px;
+        height: 200px;
     }
+
+
+   .none {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
     .path{
         display: none;
     }
     .text-div{
-        max-width:100%;
-        width:100%;
+        max-width:60%;
+       
         font-size:30px !important; 
     }
     .text{
@@ -182,14 +189,6 @@
     }
     .section-div{
         margin-left:100px;
-    }
-    .marhaba{
-        margin-left:auto;
-        margin-right:auto;
-        margin-top:350px;
-        max-width:900px;
-        width:100%;
-            
     }
     .present-div{
         max-width:500px;
@@ -209,19 +208,14 @@
         width:100%;
         height:350px;
     }
-    .map-div{
-        max-width:550px;
-        width:100%;
-        
-    }
-    .box{
+    /* .box{
         max-width:465px;
         width:100%;
         height:450px;
         display: flex;
         flex-direction: column;
         
-    }
+    } */
     .palms-title{
         font-size:15px;
        
@@ -231,23 +225,6 @@
     }
     .real{
         display: none;
-    }
-    .arabic{
-        font-size:25px;
-        margin-left:420px;
-    }
-    .emirates{
-        font-size:25px;
-        margin-left:400px;
-    }
-    .east{
-        font-size:25px;
-        margin-left:120px;
-    }
-    .dubai1{
-        max-width:490px;
-        width:100%;
-        margin-left:285px;
     }
     .form{
         max-width:200px;
@@ -259,7 +236,24 @@
     .submit1{
         max-width:230px;
     }
+
+    .last {
+        height: 420px;
+    }
+
+    .last-list {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .down {
+        margin-top: 20px;
+    }
 }
+
+
+
 @media only screen and (max-width: 946px){
     .images img{
         width:100%;
@@ -286,14 +280,6 @@
     }
     .section-div{
         margin-left:100px;
-    }
-    .marhaba{
-        margin-left:auto;
-        margin-right:auto;
-        margin-top:350px;
-        max-width:1000px;
-        width:100%;
-        
     }
     .present-div{
         max-width:400px;
@@ -330,7 +316,6 @@
         display: none;
     }
     .text-div{
-        max-width:100%;
         width: 100%;
         font-size:30px !important; 
     }
@@ -347,15 +332,6 @@
         margin-left:50px;
         max-width: 620px;
         width: 100%;
-    }
-    .marhaba{
-        margin-left:auto;
-        margin-right:auto;
-        margin-top:350px;
-        max-width:600px;
-        width:100%;
-        border-radius:20px;
-        
     }
     .present-div{
         max-width:400px;
@@ -394,11 +370,9 @@
 @media only screen and (max-width: 540px){
     .images img{
         width:100%;
-
     }
     .images{
-        margin-left:0px;
-        
+        margin-left:0px;    
     }
     .path{
         display: none;
@@ -425,8 +399,7 @@
         
     }
     .explore{
-        margin-top:-10px;
-        margin-right:270px;
+        margin-left:-50px;
         
     }
     .section-div{
@@ -437,9 +410,6 @@
     .section-map{
         display: flex;
         flex-direction: column;
-    }
-    .map-div{
-        margin-top:20px;   
     }
     .map{
         max-width:540px;
@@ -465,10 +435,8 @@
         padding-left:20px;
     }
     .real{
-        margin-left:300px;
-        
+        margin-left:300px; 
     }
-    
     .present-div{
         max-width:400px;
         width:100%;
@@ -483,31 +451,24 @@
         font-size:20px;
         
     }
-    .arabic{
-        margin-left:180px;
-    }
-    .emirates{
-        margin-left:170px;
-    }
-    .east{
-        margin-left:100px;
-    }
-    .dubai1{
-        max-width:250px;
-        width:100%;
-    }
-    .dubai{
-        margin-left:-200px;
-    }
     .form{
         max-width:190px;
     }
-    .footer{
+    .footer1{
         display: flex;
         flex-direction: column;
     }
+
+    .last-list {
+    display: flex;
+    flex-direction: column;
+}
+
     .submit1{
         max-width:190px;
+    }
+    .none{
+        width:200px;
     }
 }
 @media only screen and (max-width: 414px){
@@ -516,6 +477,7 @@
     }
     .images{
         margin-left:0px;
+        height: 0px;
     }
     .path{
         display: none;
@@ -549,78 +511,127 @@
         max-width:415px;
         width:100%;
     }
-    .marhaba{
-        margin-left:auto;
-        margin-right:auto;
-        margin-top:325px;
-        max-width:415px;
-        width:100%;
-        height:100px;
-        
-    }
-    .means{
-        font-size:20px;
-        margin-left:-100px;
-    }
-    .meaning{
-        font-size:20px;
-        margin-left:-100px;
-    }
-    .mean{
-        font-size:20px;
-        margin-left:-85px;
-    }
-    .map-div{
-        margin-top:0px;
-    }
     .map{
         max-width:414px;
         width:100%;
     }
-    .box{
-        max-width:414px;
-        width:100%;
-    }
-    .arabic{
-        margin-left:110px;
-    }
-    .emirates{
-        margin-left:90px;
-    }
-    .east{
-        margin-left:30px;
-    }
-    .dubai1{
-        max-width:150px;
-        width:100%;
-    }
-    .dubai{
-        margin-left:-270px;
-        font-size:15px;
-    }
-    .small-img img{
-        max-width:125px;
-        width:100%;
-    }
-    .burj{
-        font-size:15px;
-       margin-left:100px;
-    }
-    .khalifa{
-        font-size: 15px;
-    }
-    .form{
-        max-width:180px;
-    }
-    .footer{
-        display: flex;
-        flex-direction: column;
-    }
-    .submit1{
-        max-width:170px;
-    }
-    
+
+.small-img img{
+    max-width:125px;
+    width:100%;
 }
+.burj{
+    font-size:15px;
+    margin-left:100px;
+}
+.khalifa{
+    font-size: 15px;
+}
+.form{
+    max-width:180px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+.submit1{
+    max-width:170px;
+}
+
+.none {
+    display: none;
+}
+
+.email {
+    margin-left: 0px;
+}
+
+.last-logo {
+    margin-left: 0px;
+}
+
+.border {
+    height: 0px;
+}
+
+/* .images {
+    height: 0px;
+} */
+
+.last img {
+    margin-top: 40px;
+    margin-left: 130px
+}
+.last h3 {
+    margin-top: 40px;
+
+}
+
+.privacy1 {
+    margin-top: 20px;
+    margin-left: 40px;
+    height: 0px;
+    width: 100%;
+}
+.privacy1 p {
+    font-size: 12px;
+}
+
+.last-list {
+    display: flex;
+    flex-direction: column;
+    margin-left: 105px;
+
+}
+
+.last-list ul {
+    text-align: center;
+}
+
+.header {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+     width: 210px;
+}
+.try {
+    margin-left: 100px;
+}
+.down {
+    margin-top: 30px;
+}
+
+.last-list a {
+     color: #688095;
+}
+
+.line {
+    display: none;
+}
+.img {
+    padding-right: 0px;
+}
+.footer1 {
+    border-bottom: 50px solid #688095;
+    padding-bottom: 200px;
+
+    }
+.khalifa {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.present {
+   padding: 30px;
+}
+
+.email {
+    padding: 30px;
+}
+
+}
+
+
 @media only screen and (max-width: 411px){
     .images img{
         width:100%;
@@ -646,8 +657,6 @@
     }
     .world{
         margin-left:130px;
-        max-width:350px;
-        width:100%;
     }
     .section-div{
         margin-left:0px;
@@ -663,7 +672,16 @@
     }
     .khalifa{
         font-size: 15px;
+       
     }
+    .section-div {
+        padding: 25px;
+    }
+    .present-div {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+   
     .form{
         max-width:170px;
     }
@@ -699,9 +717,7 @@
         font-size:25px;
         margin-left:0px;
     }
-    .world{
-        margin-left:70px;
-    }
+    
     .hello{
         font-size:20px;
         margin-top:100px;
@@ -710,58 +726,29 @@
         max-width:100px;
         width:100%;
         height:50px;
-        margin-left:140px;
+        margin:0 auto;
     }
     .section-div{
         margin-left:0px;
         width:auto;
     }
-    .marhaba{
-        margin-left:auto;
-        margin-right:auto;
-        margin-top:313px;
-        max-width:374px;
-        width:100%;
-        height:100px;
-        
-    }
-    .means{
-        font-size:20px;
-        margin-left:-120px;
-    }
-    .meaning{
-        font-size:20px;
-        margin-left:-70px;
-    }
-    .mean{
-        font-size:20px;
-        margin-left:-110px;
-    }
     .small-img img{
         max-width:125px;
         width:100%;
     }
-    .map-div{
+    /* .map-div{
         margin-top:0px;
-    }
+    } */
     .map{
         max-width:375px;
         width:100%;
 
     }
-    .box{
+    /* .box{
         max-width:375px;
         width:100%;
-    }
+    } */
    
-    .dubai1{
-        max-width:80px;
-        width:100%;
-    }
-    .dubai{
-        font-size:15px;
-        margin-left:-270px;
-    }
     .burj{
         font-size:15px;
            
@@ -794,6 +781,8 @@
     .text-div{
         max-width:200;
         width:100%;
+        display: flex;
+        flex-direction: column;
     }
     .text{
         font-size:20px;
@@ -803,7 +792,7 @@
     }
     
     .world{
-        padding-right:100px;
+        margin:0 auto;
     }
     .section-div{
         margin-left:0px;
@@ -821,23 +810,6 @@
     .box{
         max-width:360px;
         width:100%;
-    }
-    .arabic{
-        font-size:20px;
-    }
-    .emirates{
-        font-size:20px;
-    }
-    .east{
-        font-size:20px;
-    }
-    .duba1{
-        max-width:250px;
-        width:100%;
-    }
-    .dubai{
-        font-size:10px;
-      
     }
     .burj{
         font-size:15px;
@@ -910,7 +882,7 @@
     .khalifa{
         font-size: 15px;
     }
-    .arabic{
+    /* .arabic{
         font-size:20px;
         margin-left:100px;
     }
@@ -921,17 +893,17 @@
     .east{
         font-size:20px;
         margin-left:90px;
-    }
-    .dubai1{
+    } */
+    /* .dubai1{
         max-width:100px;
         width:100%;
-    }
-    .dubai{
+    } */
+    /* .dubai{
         margin-left:-223px;
         font-size:15px;
         max-width:300px;
         width:100%;
-    }
+    } */
     .present-div{
         height:250px;
     }
