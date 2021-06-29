@@ -1,8 +1,10 @@
-let navbarLinks = document.getElementById('navBarlinks');
-let Burger = document.getElementById('burgerbar');
+/* burger*/
 
-Burger.addEventListener('click', function()  {
-    
+let navbarLinks = document.getElementById('navBarlinks');
+let toggleButton = document.getElementById('burgerBar');
+
+toggleButton.addEventListener('click', function()  {
+
 navbarLinks.classList.toggle('active');
 
 })

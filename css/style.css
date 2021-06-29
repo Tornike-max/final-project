@@ -8,6 +8,7 @@
     position: relative;  
 
 }
+
 .logo{
     margin-top:20px;
     left:100px;
@@ -22,6 +23,10 @@
     display: inline-block;
     vertical-align: middle;
     margin:20px;
+    
+}
+a:hover{
+    font-size:20px;
 }
 
 .navbar{
@@ -35,6 +40,7 @@
 .nav-a{
     /* margin-left:140px; */
     color:red;
+    
 }   
 .toggle-button{
     position: absolute;
@@ -43,6 +49,7 @@
     font-size:25px;
     color:red;
     display: none;
+    cursor: pointer;
 }
 .text-div{
     max-width: 733px;
@@ -51,17 +58,20 @@
     margin-left:150px;
     margin-top:45px;
     position: relative;
+    font-family: 'Cairo', sans-serif;
 }
 .text{
     color:#FFFFFF;
     font-size:60px;
     width:100%;
-    text-shadow: 2px 2px #FF0000;
+    text-shadow: 1px 1px #FF0000;
+    font-family: 'Cairo', sans-serif;
 }
 .text1{
     color:#FFFFFF;
     font-size:60px;
-    text-shadow: 2px 2px #FF0000;
+    text-shadow: 1px 1px #FF0000;
+    font-family: 'Cairo', sans-serif;
 }
 .world{
     max-width: 674px;
@@ -70,23 +80,44 @@
     margin-top:50px;
     margin-left:150px;
     display: flex;
+    cursor: pointer;
+    transition:ease-out 0,3s;
+    font-size :30px;
+    outline: none;
+    box-shadow:rgb(151, 151, 94);
+    text-align: center;
 }
 .hello{
     color:#EFD6AC;
     font-size:20px;
-    text-shadow: 2px 2px #FF0000;
+    text-shadow: 1px 1px #FF0000;
+    font-family: 'Cairo', sans-serif;
 }
 .explore{
     max-width:166px;
     width:100%;
     height:55px;
-    border:1px solid;
-    border-radius: 33px;
+    border:none;
+    border-radius: 10px;
     position: absolute;
     margin-left:140px;
     margin-top:100px;
-    cursor: pointer;
+    /* cursor: pointer; */
+    transition:ease-out 0,3s;
+    font-size :30px;
+    outline: none;
+    border:3px solid #42fbf2;
+    box-shadow:rgb(151, 151, 94);
+    z-index: 1;
 }
+.explore:hover{
+    background-color:#C49D48;
+    box-shadow:rgb(100, 177, 113);
+    cursor: pointer;
+    color:aqua;
+}
+
+
 .images{
     max-width:600px;
     width: 100%;
@@ -96,6 +127,7 @@
     position: relative;
     animation: mymove 1s ;
     animation-timing-function: linear;
+    cursor: pointer;
     
 }
 .border{
@@ -108,6 +140,7 @@
     background-color: white;
     margin-left:140px;
     margin-top: -310px;
+
    
 }
 .path p::first-line {
@@ -123,11 +156,13 @@
 .travel{
     color:#04151F;
     font-size: 25px;  
+    font-family: 'Cairo', sans-serif;
 }
 .sun{
     font-size: 15px;
     color: #04151F;
     padding-top: 20px;
+    font-family: 'Cairo', sans-serif;
 }
 .section{
     max-width:1920px;
@@ -141,26 +176,27 @@
 }
 .section-div{
     max-width:828px;
-    width:100%;
     height:733px;
     background-color:#357AB4;
     margin-left:219px;
     padding-top:100px;
     border-radius: 20px;
     border: 1px solid;
-  padding: 10px;
-  box-shadow: 5px 10px;
+    padding: 10px;
+    
 }
 .burj{
     font-size:25px ;
     color: #C49D48;
-    padding-left:76px;
-    padding-top:71px;
+    padding-left:30px;
+    padding-top:91px;
+    font-family: 'Cairo', sans-serif;
 }
 .khalifa{
     font-size:16px;
     color:#C49D48;
     padding-top:63px;
+    font-family: 'Cairo', sans-serif;
 }
 .small-img{
     display: flex;
@@ -182,14 +218,80 @@
     flex-direction: column;
     width:800px;
     margin-top: 100px;
-    border: 1px solid;
-  padding: 10px;
-  box-shadow: 5px 10px #888888;
+    /* border: 1px solid; */
+    padding: 10px;
+    position:relative;
+    height:330px;
+    justify-content: center;
+
+}
+.present-div span:nth-child(1){
+    position: absolute;
+    top:0;
+    width:80%;
+    height:80%;
+    /* border:1px solid blue; */
+    border-radius:38% 62% 63% 37% / 41% 44% 56% 59%;
+    transition: 0,5s;
+    animation:animate 6s linear infinite;
+}
+.present-div:hover span:nth-child(1){
+    border:none;
+    background: rgba(0,0,255,0.8);
+}
+.present-div span:nth-child(2){
+    position: absolute;
+    top:0;
+    width:80%;
+    height:80%;
+    /* border:1px solid blue; */
+    border-radius:38% 62% 63% 37% / 41% 44% 56% 59%;
+    transition: 0,5s;
+    animation:animate2 4s linear infinite;
+}
+.present-div:hover span:nth-child(2){
+    background: rgba(0,0,255,0.8);
+}
+.present-div span:nth-child(3){
+    position: absolute;
+    top:0;
+    width:80%;
+    height:80%;
+    /* border:1px solid blue; */
+    border-radius:38% 62% 63% 37% / 41% 44% 56% 59%;
+    transition: 0,5s;
+    animation:animate 10s linear infinite;
+}
+.present-div:hover span:nth-child(3){
+    background: rgba(0,0,255,0.8);
+}
+.content{
+    position: relative;
+    padding:20px 40px;
+    color:black;
+    text-align: center;
+    transition:0.5s;
+    z-index: 1000;
+}
+.content button{
+    position: relative;
+    display: inline-block;
+    margin-top:10px;
+    border:2px solid #1b1a1a;
+    padding:6px 18px;
+    color:black;
+    font-weight: 400;
+    border-radius: 73% 27% 44% 56% / 49% 44% 56% 51%;
+}
+.content button:hover{
+    background:#FFFFFF;
+    color:grey;
 }
 .present{
     font-size:30px;
     color:#C49D48;
     margin-top:30px;
+    font-family: 'Cairo', sans-serif;
 }
 .try{
     max-width:100px;
@@ -221,6 +323,7 @@
 .perfect{
     font-size:50px;
     color:#C49D48;
+    font-family: 'Cairo', sans-serif;
 }
 .image-bg{
     background-image: url(../images/DB.jpg);
@@ -258,7 +361,7 @@
         font-weight: bold;
         font-size: 24px;
         margin-bottom: 10px;
-        width: 300px;
+        width: 150px;
 }
 
    .last-list a {
@@ -300,8 +403,13 @@
     margin-left:100px;
     background-color:#C49D48;
     font-size:35px;
-    color:#E2EAF0;
+    color:#e4e2f0;
     margin-top:20px;
+    cursor: pointer;
+}
+.submit1:hover{
+    font-size:40px;
+    color:blue;
 }
 .password{
     position: relative;
@@ -330,7 +438,7 @@
     width:100%;
     height:32px;
     margin-top:124px;
-    margin-left:351px;
+    margin-left:100px;
 }
 .last-title{
     font-size:30px;
@@ -354,10 +462,14 @@
     width:100%;
     height:228px;
     margin-top:124px;
-    margin-left:25px;
+    /* margin-left:25px; */
     display: flex;
     color: #688095;
 }
+.last-list a{
+    margin:0 auto;
+}
+
 .line{
     max-width:1900px;
     width:100%;
@@ -382,5 +494,29 @@
     from {left: -1000px ;}
     to {left: 0px;}
   }
+
+ @keyframes animate
+ {
+   0%
+   {
+       transform:rotate(0deg)
+   }
+   100%
+   {
+       transform:rotate(360deg)
+   }
+ }
+
+ @keyframes animate2
+ {
+   0%
+   {
+       transform:rotate(360deg)
+   }
+   100%
+   {
+       transform:rotate(0deg)
+   }
+ }
 
   

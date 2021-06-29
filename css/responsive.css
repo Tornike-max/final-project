@@ -120,7 +120,7 @@
         max-width:250px;
     }
 }
-}
+
 
 @media only screen and (max-width: 1440px){
     .images img{
@@ -186,6 +186,7 @@
         max-width:250px;
     }
 }
+
 @media only screen and (max-width: 1024px){
     
     .last-logo {
@@ -203,7 +204,7 @@
     }
 
     .images img{
-        width:256px;
+        width:232px;
 
     }
     .images{
@@ -387,8 +388,8 @@
         padding-right:100px;
     }
     .section-div{
-        margin-left:50px;
-        max-width: 620px;
+        margin-left:20px;
+        max-width: 460px;
         width: 100%;
     }
     .present-div{
@@ -422,6 +423,17 @@
     }
     .submit1{
         max-width:200px;
+        width:100%;
+        margin-left:0px;
+    }
+    .email1{
+        margin-left:20px;
+    }
+    .password{
+        margin-left:20px;
+    }
+    .footer-title{
+        margin-top:30px;
     }
     
 }
@@ -461,7 +473,7 @@
         
     }
     .section-div{
-        max-width:500px;
+        max-width:350px;
         width:100%;
         margin-left:20px;
     }
@@ -506,7 +518,7 @@
        
     }
     .present{
-        font-size:20px;
+        font-size:12px;
         
     }
     .form{
@@ -527,6 +539,9 @@
     }
     .none{
         width:200px;
+    }
+    .down{
+        max-width:400px;
     }
 }
 @media only screen and (max-width: 414px){
@@ -612,10 +627,6 @@
     height: 0px;
 }
 
-/* .images {
-    height: 0px;
-} */
-
 .last img {
     margin-top: 40px;
     margin-left: 130px
@@ -638,7 +649,7 @@
 .last-list {
     display: flex;
     flex-direction: column;
-    margin-left: 105px;
+    margin-left: 50px;
 
 }
 
@@ -732,9 +743,6 @@
         font-size: 15px;
        
     }
-    .section-div {
-        padding: 25px;
-    }
     .present-div {
     padding-left: 30px;
     padding-right: 30px;
@@ -794,19 +802,11 @@
         max-width:125px;
         width:100%;
     }
-    /* .map-div{
-        margin-top:0px;
-    } */
     .map{
         max-width:375px;
         width:100%;
 
     }
-    /* .box{
-        max-width:375px;
-        width:100%;
-    } */
-   
     .burj{
         font-size:15px;
            
@@ -824,6 +824,7 @@
     .submit1{
         max-width:160px;
     }
+    
 }
 @media only screen and (max-width: 360px){
     .images img{
@@ -940,28 +941,6 @@
     .khalifa{
         font-size: 15px;
     }
-    /* .arabic{
-        font-size:20px;
-        margin-left:100px;
-    }
-    .emirates{
-        font-size:20px;
-        margin-left:90px;
-    }
-    .east{
-        font-size:20px;
-        margin-left:90px;
-    } */
-    /* .dubai1{
-        max-width:100px;
-        width:100%;
-    } */
-    /* .dubai{
-        margin-left:-223px;
-        font-size:15px;
-        max-width:300px;
-        width:100%;
-    } */
     .present-div{
         height:250px;
     }
