@@ -129,6 +129,7 @@
     }
     .images{
         margin-left:0px;
+        margin-top:-89px;
     }
     .path{
         display: none;
@@ -145,6 +146,9 @@
     }
     .world{
         padding-right:100px;
+    }
+    .section{
+        margin-top:-298px;
     }
     .section-div{
         margin-left:100px;
@@ -237,6 +241,9 @@
     .world{
         padding-right:100px;
     }
+    .section{
+        margin-top:50px;
+    }
     .section-div{
         margin-left:100px;
     }
@@ -320,6 +327,9 @@
     .world{
         padding-right:100px;
     }
+    .section{
+        margin-top:50px;
+    }
     .section-div{
         margin-left:100px;
     }
@@ -371,6 +381,16 @@
     .navbar-links.active{
         display: block;
     }
+    .present-div span:nth-child(1){
+        position: absolute;
+        top:0;
+        width:70%;
+        height:70%;
+        /* border:1px solid blue; */
+        border-radius:38% 62% 63% 37% / 41% 44% 56% 59%;
+        transition: 0,5s;
+        animation:animate 6s linear infinite;
+    }
     .path{
         display: none;
     }
@@ -387,6 +407,7 @@
     .world{
         padding-right:100px;
     }
+    
     .section-div{
         margin-left:20px;
         max-width: 460px;
@@ -467,6 +488,9 @@
     .explore{
         margin-left:-20px;
         
+    }
+    .section{
+        margin-top:50px;
     }
     .section-div{
         max-width:350px;
@@ -578,6 +602,9 @@
         margin-left:0px;
         max-width:415px;
         width:100%;
+    }
+    .section{
+        margin-top:50px;
     }
     .present-div span:nth-child(1){
         position: absolute;
@@ -767,6 +794,9 @@
         margin-left:10px;
         max-width:380px;
     }
+    .section{
+        margin-top:60px;
+    }
     .present-div span:nth-child(1){
         position: absolute;
         top:0;
@@ -878,6 +908,9 @@
         font-size:15px;
         margin-top:10px;
     }
+    .section{
+        margin-top:50px;
+    }
     .section-div{
         margin-left:0px;
         width:auto;
@@ -976,6 +1009,9 @@
     
     .world{
         margin:0 auto;
+    }
+    .section{
+        margin-top:50px;
     }
     .section-div{
         margin-left:0px;
@@ -1091,6 +1127,12 @@
         height:50px;
         margin-left:0px;
         font-size:15px;
+    }
+    .section{
+        margin-top:50px;
+    }
+    .images{
+        margin-top:1;
     }
     .section-div{
         margin-left:0px;
