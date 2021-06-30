@@ -26,8 +26,14 @@
     
 }
 a:hover{
-    font-size:20px;
+    font-size:30px;
+    
 }
+
+.navbar-links.active{
+   display: block;
+}
+
 
 .navbar{
     flex-wrap: wrap;
@@ -35,12 +41,9 @@ a:hover{
     justify-content: space-between;
     background-color:khaki;
     padding:10px;
-    
 }
 .nav-a{
-    /* margin-left:140px; */
-    color:red;
-    
+    color:#2C4458; 
 }   
 .toggle-button{
     position: absolute;
@@ -59,23 +62,42 @@ a:hover{
     margin-top:45px;
     position: relative;
     font-family: 'Cairo', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
 }
+
 .text{
     color:#FFFFFF;
     font-size:60px;
     width:100%;
-    text-shadow: 1px 1px #FF0000;
+    letter-spacing: 2px;
     font-family: 'Cairo', sans-serif;
+    text-align: center;
+    position: relative;
+    animation: mymove2 5s ;
+    text-shadow: 1px 1px #2C4458;
+}
+.text{
+    animation-timing-function: linear;
 }
 .text1{
     color:#FFFFFF;
     font-size:60px;
-    text-shadow: 1px 1px #FF0000;
+    letter-spacing: 2px;
     font-family: 'Cairo', sans-serif;
+    text-align: center;
+    position: relative;
+    animation: mymove3 5s ;
+    text-shadow: 1px 1px #2C4458;
+}
+.text1{
+    animation-timing-function: ease-in;
 }
 .world{
     max-width: 674px;
-    height:80px;
+    height:70px;
     align-items: center;
     margin-top:50px;
     margin-left:150px;
@@ -84,14 +106,21 @@ a:hover{
     transition:ease-out 0,3s;
     font-size :30px;
     outline: none;
-    box-shadow:rgb(151, 151, 94);
     text-align: center;
+    text-shadow: 1px 1px #2C4458;
+    
 }
+
 .hello{
     color:#EFD6AC;
     font-size:20px;
-    text-shadow: 1px 1px #FF0000;
+    text-shadow: 1px 1px #2C4458;
     font-family: 'Cairo', sans-serif;
+    position: relative;
+    animation: mymove4 5s ;
+}
+.hello{
+    animation-timing-function: ease-out;
 }
 .explore{
     max-width:166px;
@@ -99,7 +128,7 @@ a:hover{
     height:55px;
     border:none;
     border-radius: 10px;
-    position: absolute;
+    /* position: absolute; */
     margin-left:140px;
     margin-top:100px;
     /* cursor: pointer; */
@@ -109,6 +138,11 @@ a:hover{
     border:3px solid #42fbf2;
     box-shadow:rgb(151, 151, 94);
     z-index: 1;
+    position: relative;
+    animation: mymove5 5s ;
+}
+.explore{
+    animation-timing-function: ease-in-out;
 }
 .explore:hover{
     background-color:#C49D48;
@@ -128,6 +162,7 @@ a:hover{
     animation: mymove 1s ;
     animation-timing-function: linear;
     cursor: pointer;
+    
     
 }
 .border{
@@ -172,7 +207,7 @@ a:hover{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    margin-top: 30px;
+    
 }
 .section-div{
     max-width:828px;
@@ -206,7 +241,15 @@ a:hover{
     flex-wrap: wrap;
     border: 1px solid;
     padding: 10px;
-    box-shadow: 5px 10px;
+    cursor: pointer;
+    
+}
+.small-img img{
+    cursor: pointer;
+}
+.small-img img:hover{
+    cursor: pointer;
+    
 }
 .section-map{
     display: flex;
@@ -228,8 +271,8 @@ a:hover{
 .present-div span:nth-child(1){
     position: absolute;
     top:0;
-    width:80%;
-    height:80%;
+    width:90%;
+    height:90%;
     /* border:1px solid blue; */
     border-radius:38% 62% 63% 37% / 41% 44% 56% 59%;
     transition: 0,5s;
@@ -242,9 +285,8 @@ a:hover{
 .present-div span:nth-child(2){
     position: absolute;
     top:0;
-    width:80%;
-    height:80%;
-    /* border:1px solid blue; */
+    width:90%;
+    height:90%;
     border-radius:38% 62% 63% 37% / 41% 44% 56% 59%;
     transition: 0,5s;
     animation:animate2 4s linear infinite;
@@ -255,9 +297,8 @@ a:hover{
 .present-div span:nth-child(3){
     position: absolute;
     top:0;
-    width:80%;
-    height:80%;
-    /* border:1px solid blue; */
+    width:90%;
+    height:90%;
     border-radius:38% 62% 63% 37% / 41% 44% 56% 59%;
     transition: 0,5s;
     animation:animate 10s linear infinite;
@@ -301,8 +342,8 @@ a:hover{
     border:1px solid;
     border-radius: 30px;
     cursor: pointer;
-    top: 50%;
-    left: 50%;
+    top: 20%;
+    left: 20%;
     transform: translate(-50%, -50%);
     margin-left:70px;
     margin-top:50px;
@@ -312,8 +353,17 @@ a:hover{
     width:100%;
     width:800px;
 }
+.map2{
+    max-width:900px;
+    width:100%;
+    height:640px;
+}
 .map-divv{
     display: flex;
+    flex-wrap: wrap;
+    transition: 0,5s;
+    animation:animate6  2s ;
+    position: relative;
 }
 .map-p{
     width:200px;
@@ -424,7 +474,6 @@ a:hover{
 .last{
     max-width:1900px;
     width:100%;
-    height:380px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -448,7 +497,7 @@ a:hover{
 }
 .privacy{
     color:#688095;
-    font-size:16px;
+    margin-top:20px;
 }
 .privacy1{
     max-width:341px;
@@ -456,12 +505,13 @@ a:hover{
     height:78px;
     margin-top:180px;
     margin-left:-120px;
+    font-size:20px;
 }
 .last-list{
     max-width:168px;
     width:100%;
     height:228px;
-    margin-top:124px;
+    /* margin-top:124px; */
     /* margin-left:25px; */
     display: flex;
     color: #688095;
@@ -477,6 +527,160 @@ a:hover{
     background-color:#688095;
 }
 
+/* contact */
+
+
+form {
+    border: 3px solid #f1f1f1;
+    font-family: Arial;
+  }
+  
+  .container1{
+    padding: 20px;
+    background-color: #f1f1f1;
+    position: relative;
+  }
+  
+  input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  input[type=checkbox] {
+    margin-top: 16px;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
+
+
+.contact-divv{
+    max-width:500px;
+    height:400px;
+    background-color: #357AB4;
+    display: flex;
+    justify-content: space-between;
+    margin-left:90px;
+    flex-direction: row;
+    align-items: center;
+    opacity: 0.5;
+    transition: 0,5s;
+    animation:animate  2s ;
+    position: relative;
+    
+}
+.second-contactd{
+    display: flex;
+    justify-content: flex-end;
+    margin-top:-120px;
+}
+.first-contact{
+    font-size:30px;
+    margin-top:-60px;
+}
+.first-contact:hover{
+    font-size:40px;
+}
+.questions{
+    max-width:140px;
+    font-size:20px;
+}
+
+.number-div{
+    max-width:200px;
+    width:100%;
+    height:200px;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top:70px;
+    flex-wrap: wrap;
+    margin: auto;
+    
+}
+.number{
+    font-size:16px;
+    flex-wrap: wrap;
+}
+.number:hover{
+    font-size:20px;
+    font-family: 'Cairo', sans-serif;
+    letter-spacing: 2px;
+    
+}
+
+.first-number{
+    font-size:16px;
+    font-family: 'Cairo', sans-serif;
+}
+.first-number:hover{
+    font-size:20px;
+    font-family: 'Cairo', sans-serif;
+    letter-spacing: 2px;
+}
+
+.second-number{
+    font-size:16px;
+    font-family: 'Cairo', sans-serif;
+}
+.second-number:hover{
+    font-size:20px;
+    font-family: 'Cairo', sans-serif;
+    letter-spacing: 2px;
+}
+
+
+.question-div{
+    max-width:300px;
+    height:100px;
+    margin-top:20px;
+    
+}
+.icons{
+    max-width:500px;
+    width:100%;
+    height:55;
+    
+    display: flex;
+}
+.icon{
+    width: 35px;
+    height: 35px;
+    border-radius: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;  
+    cursor: pointer;
+}
+
+.icon:hover{
+    width:45px;
+    height:45px;
+}
+.fb-icon{
+   color:#3b5998;
+}
+.inst-icon{
+    color:#8a3ab9;
+}
+.twit-icon{
+   color:#1DA1F2;
+}
+.you-icon{
+   color:#c4302b;
+}
 /* about page */
 .last1{
     max-width:1900px;
@@ -486,6 +690,27 @@ a:hover{
     flex-wrap: wrap;
 }
 
+.about-text{
+    font-family: 'Cairo', sans-serif;
+    color:#04151F;
+    font-size:20px;
+    letter-spacing: 2px;
+}
+.us{
+    max-width:800px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    border-radius:20px ;
+    background-color: #357AB4;
+    transition: 0,5s;
+    animation:animate7  2s ;
+    position: relative;
+
+}
 
 /* animations */
 
@@ -518,5 +743,53 @@ a:hover{
        transform:rotate(0deg)
    }
  }
+ @keyframes animate4 {
+    from {left: -1000px ;}
+    to {left: 0px;}
+    
+  }
 
+  @keyframes mymove2 {
+    from {left: -900px;}
+    to {left: 0px;}
+  }
+
+  @keyframes mymove3 {
+    from {left: -900px;}
+    to {left: 0px;}
+  }
+
+  @keyframes mymove4 {
+    from {left: -900px;}
+    to {left: 0px;}
+  }
+  @keyframes mymove5 {
+    from {left: -900px;}
+    to {left: 0px;}
+  }
+
+  @keyframes animate6
+ {
+   0%
+   {
+       transform:rotate(0deg)
+   }
+   100%
+   {
+       transform:rotate(360deg)
+   }
+ }
+
+ @keyframes animate7
+ {
+   0%
+   {
+       transform:rotate(0deg)
+   }
+   100%
+   {
+       transform:rotate(360deg)
+   }
+ }
   
+

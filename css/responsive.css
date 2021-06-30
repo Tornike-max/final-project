@@ -37,7 +37,7 @@
         width:100%;
     }
     .map{
-        max-width:565px;
+        /* max-width:565px; */
         width:100%;
         height:650px;
     }
@@ -98,7 +98,7 @@
         width:100%;
     }
     .map{
-        max-width:565px;
+        /* max-width:565px; */
         width:100%;
         height:650px;
     }
@@ -457,10 +457,6 @@
     .text1{
         font-size:30px;
     }
-    .hello{
-        margin-bottom: 180px;
-        margin-right:100px;
-    }
     .world{
         justify-content: center;
         align-items: center;
@@ -576,7 +572,7 @@
         max-width:100px;
         width:100%;
         height:50px;
-        margin-left:150px;
+        font-size:15px;
         
     }
     .section-div{
@@ -584,8 +580,48 @@
         max-width:415px;
         width:100%;
     }
+    .present-div span:nth-child(1){
+        position: absolute;
+        top:0;
+        width:75%;
+        height:75%;
+        border-radius:38% 62% 63% 37% / 41% 44% 56% 59%;
+        transition: 0,5s;
+        animation:animate 6s linear infinite;
+    }
+    .present-div:hover span:nth-child(1){
+        border:none;
+        background: rgba(0,0,255,0.8);
+    }
+}
+.present-div span:nth-child(2){
+    position: absolute;
+    top:0;
+    width:75%;
+    height:75%;
+    /* border:1px solid blue; */
+    border-radius:38% 62% 63% 37% / 41% 44% 56% 59%;
+    transition: 0,5s;
+    animation:animate2 4s linear infinite;
+}
+.present-div:hover span:nth-child(2){
+    background: rgba(0,0,255,0.8);
+}
+.present-div span:nth-child(3){
+    position: absolute;
+    top:0;
+    width:75%;
+    height:75%;
+    /* border:1px solid blue; */
+    border-radius:38% 62% 63% 37% / 41% 44% 56% 59%;
+    transition: 0,5s;
+    animation:animate 10s linear infinite;
+}
+.present-div:hover span:nth-child(3){
+    background: rgba(0,0,255,0.8);
+}
     .map{
-        max-width:414px;
+        /* max-width:414px; */
         width:100%;
     }
 
@@ -698,7 +734,7 @@
     padding: 30px;
 }
 
-}
+
 
 
 @media only screen and (max-width: 411px){
@@ -715,6 +751,7 @@
     .text-div{
         max-width:200px; 
         width:100%;
+        height:300px;
     }
     .text{
         font-size:20px;
@@ -730,6 +767,46 @@
     .section-div{
         margin-left:0px;
     }
+    .present-div span:nth-child(1){
+        position: absolute;
+        top:0;
+        width:75%;
+        height:75%;
+        border-radius:38% 62% 63% 37% / 41% 44% 56% 59%;
+        transition: 0,5s;
+        animation:animate 6s linear infinite;
+    }
+    .present-div:hover span:nth-child(1){
+        border:none;
+        background: rgba(0,0,255,0.8);
+    }
+}
+.present-div span:nth-child(2){
+    position: absolute;
+    top:0;
+    width:75%;
+    height:75%;
+    /* border:1px solid blue; */
+    border-radius:38% 62% 63% 37% / 41% 44% 56% 59%;
+    transition: 0,5s;
+    animation:animate2 4s linear infinite;
+}
+.present-div:hover span:nth-child(2){
+    background: rgba(0,0,255,0.8);
+}
+.present-div span:nth-child(3){
+    position: absolute;
+    top:0;
+    width:75%;
+    height:75%;
+    /* border:1px solid blue; */
+    border-radius:38% 62% 63% 37% / 41% 44% 56% 59%;
+    transition: 0,5s;
+    animation:animate 10s linear infinite;
+}
+.present-div:hover span:nth-child(3){
+    background: rgba(0,0,255,0.8);
+}
     
     .small-img img{
         max-width:125px;
@@ -758,7 +835,7 @@
     .submit1{
         max-width:160px;
     }
-}
+
 @media only screen and (max-width: 375px){
     .images img{
         width:100%;
@@ -786,24 +863,65 @@
     
     .hello{
         font-size:20px;
-        margin-top:100px;
+        margin-top:250px;
     }
     .explore{
         max-width:100px;
         width:100%;
         height:50px;
         margin:0 auto;
+        font-size:15px;
     }
     .section-div{
         margin-left:0px;
         width:auto;
     }
+    .present-div span:nth-child(1){
+        position: absolute;
+        top:0;
+        width:75%;
+        height:75%;
+        border-radius:38% 62% 63% 37% / 41% 44% 56% 59%;
+        transition: 0,5s;
+        animation:animate 6s linear infinite;
+    }
+    .present-div:hover span:nth-child(1){
+        border:none;
+        background: rgba(0,0,255,0.8);
+    }
+}
+.present-div span:nth-child(2){
+    position: absolute;
+    top:0;
+    width:75%;
+    height:75%;
+    /* border:1px solid blue; */
+    border-radius:38% 62% 63% 37% / 41% 44% 56% 59%;
+    transition: 0,5s;
+    animation:animate2 4s linear infinite;
+}
+.present-div:hover span:nth-child(2){
+    background: rgba(0,0,255,0.8);
+}
+.present-div span:nth-child(3){
+    position: absolute;
+    top:0;
+    width:75%;
+    height:75%;
+    /* border:1px solid blue; */
+    border-radius:38% 62% 63% 37% / 41% 44% 56% 59%;
+    transition: 0,5s;
+    animation:animate 10s linear infinite;
+}
+.present-div:hover span:nth-child(3){
+    background: rgba(0,0,255,0.8);
+}
     .small-img img{
         max-width:125px;
         width:100%;
     }
     .map{
-        max-width:375px;
+        /* max-width:375px; */
         width:100%;
 
     }
@@ -825,7 +943,7 @@
         max-width:160px;
     }
     
-}
+
 @media only screen and (max-width: 360px){
     .images img{
         width:100%;
@@ -856,6 +974,46 @@
     .section-div{
         margin-left:0px;
     }
+    .present-div span:nth-child(1){
+        position: absolute;
+        top:0;
+        width:75%;
+        height:75%;
+        border-radius:38% 62% 63% 37% / 41% 44% 56% 59%;
+        transition: 0,5s;
+        animation:animate 6s linear infinite;
+    }
+    .present-div:hover span:nth-child(1){
+        border:none;
+        background: rgba(0,0,255,0.8);
+    }
+}
+.present-div span:nth-child(2){
+    position: absolute;
+    top:0;
+    width:75%;
+    height:75%;
+    /* border:1px solid blue; */
+    border-radius:38% 62% 63% 37% / 41% 44% 56% 59%;
+    transition: 0,5s;
+    animation:animate2 4s linear infinite;
+}
+.present-div:hover span:nth-child(2){
+    background: rgba(0,0,255,0.8);
+}
+.present-div span:nth-child(3){
+    position: absolute;
+    top:0;
+    width:75%;
+    height:75%;
+    /* border:1px solid blue; */
+    border-radius:38% 62% 63% 37% / 41% 44% 56% 59%;
+    transition: 0,5s;
+    animation:animate 10s linear infinite;
+}
+.present-div:hover span:nth-child(3){
+    background: rgba(0,0,255,0.8);
+}
     
     
     .small-img img{
@@ -863,7 +1021,7 @@
         width:100%;
     }
     .map{
-        max-width:360px;
+        /* max-width:360px; */
         width:100%;
     }
     .box{
@@ -887,7 +1045,7 @@
     .submit1{
         max-width:160px;
     }
-}
+
 @media only screen and (max-width: 320px){
     .images img{
         width:100%;
@@ -919,15 +1077,55 @@
         max-width:100px;
         width:100%;
         height:50px;
-        margin-left:120px;
+        margin-left:0px;
+        font-size:15px;
     }
     .section-div{
         margin-left:0px;
         width:auto;
     }
+    .present-div span:nth-child(1){
+            position: absolute;
+            top:0;
+            width:75%;
+            height:75%;
+            border-radius:38% 62% 63% 37% / 41% 44% 56% 59%;
+            transition: 0,5s;
+            animation:animate 6s linear infinite;
+        }
+        .present-div:hover span:nth-child(1){
+            border:none;
+            background: rgba(0,0,255,0.8);
+        }
+    }
+    .present-div span:nth-child(2){
+        position: absolute;
+        top:0;
+        width:75%;
+        height:75%;
+        /* border:1px solid blue; */
+        border-radius:38% 62% 63% 37% / 41% 44% 56% 59%;
+        transition: 0,5s;
+        animation:animate2 4s linear infinite;
+    }
+    .present-div:hover span:nth-child(2){
+        background: rgba(0,0,255,0.8);
+    }
+    .present-div span:nth-child(3){
+        position: absolute;
+        top:0;
+        width:75%;
+        height:75%;
+        /* border:1px solid blue; */
+        border-radius:38% 62% 63% 37% / 41% 44% 56% 59%;
+        transition: 0,5s;
+        animation:animate 10s linear infinite;
+    }
+    .present-div:hover span:nth-child(3){
+        background: rgba(0,0,255,0.8);
+    }
     
     .map{
-        max-width:302px;
         width:100%;
     }
     .small-img img{
@@ -978,8 +1176,19 @@
        flex-direction: column;
        align-items: center;
    }
-    
-}
+    .contact-divv{
+        margin-left:0px;
+    }
+    .first-contact{
+        margin-left:20px;
+    }
+    .questions{
+        margin-left:20px;
+    }
+    .number-div{
+        margin-left:10px;
+    }
+
 
 
 

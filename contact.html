@@ -5,34 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://kit.fontawesome.com/6de6aa5275.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap" rel="stylesheet">
     <link rel="icon" href="icon/burj.webp" type="image/gif" sizes="16x16">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
     <div class="bg-img">
-        <div class="nav-div">
-            <nav class="nav-ul">
-                <ul>
-                    <li class="nav-li">
-                        <a href="index.html" class="nav-a"><img class="img" src="images/Path 15.png"></a>
-                    </li>
-                    <li class="nav-li">
-                        <a href="index.html" class="nav-a ">HOME</a>
-                    </li>
-                    <li class="nav-li">
-                      <a href="about.html" class="nav-a">ABOUT US</a>
-                  </li>
-                  <li class="nav-li">
-                      <a href="guide.html" class="nav-a">CITY GUIDE</a>
-                  </li>
-                  <li class="nav-li">
-                      <a href="contact.html" class="nav-a active">CONTACT US</a>
-                  </li>
-                </ul>
-            </nav>
-            </div>
+        <header>
+            <div class="navbar">
+      
+                <a class="logo" href="index.html"><img class="img" src="images/Path 15.png" alt="image1"></a>
+               
+                <nav class="navbar-links" id="navBarLinks">
+                    <ul class="nav-ul">
+                        <li class="nav-li">
+                            <a href="index.html" class="nav-a active">HOME</a>
+                        </li>
+                        <li class="nav-li">
+                          <a href="about.html" class="nav-a">ABOUT US</a>
+                      </li>
+                      <li class="nav-li">
+                          <a href="guide.html" class="nav-a">CITY GUIDE</a>
+                      </li>
+                      
+                      <li class="nav-li">
+                          <a href="contact.html" class="nav-a">CONTACT US</a>
+                      </li>
+                    </ul>
+                </nav>
+    
+                <div class="toggle-button" id="burgerBar">
+                  <i class="fas fa-bars"></i>
+                </div>
+    
+                </div>
+    
+              </header>
             <div class="contact-divv">
                 <div class="question-div">
                 <h4 class="first-contact">CONTACT US</h4>
@@ -40,18 +53,58 @@
                 
             </div>
             <div class="number-div">
+                <i class="fas fa-phone"></i>
                 <h3 class="number"> NUMBER</h3>
                 <p  class="first-number">+995-555555555</p>
                 <p  class="second-number">+0322-555555</p>
             </div>
+            
+            </div>
+            <div class="second-contactd">
+                <form >
+                    <div class="container1">
+                      <p>Enter your name and email and we will contact you.</p>
+                    </div>
+                  
+                    <div class="container1" style="background-color:white">
+                      <input type="text" placeholder="Name" name="name" required>
+                      <input type="text" placeholder="Email address" name="mail" required>
+                      <label>
+                        <input type="checkbox" checked="checked" name="subscribe"> Remember personal information?
+                      </label>
+                    </div>
+                  
+                    <div class="container1">
+                      <input type="submit" value="SEND">
+                    </div>
+                  </form>
+
             </div>
             <footer class="footer1">
+                   
                 <div class="last">
                     <img class="last-logo" src="images/Path 15.png" alt="path">
                     <h3 class="last-title">LOGO</h3>
                     <div class="privacy1"><p class="privacy">Your privacy is important to us. This privacy statement explains 
                         the personal data we process, how we process it, and for what reasons.</p>
                     </div>
+                    <!-- <form >
+                        <div class="container1">
+                          <p>Enter your name and email and we will contact you.</p>
+                        </div>
+                      
+                        <div class="container1" style="background-color:white">
+                          <input type="text" placeholder="Name" name="name" required>
+                          <input type="text" placeholder="Email address" name="mail" required>
+                          <label>
+                            <input type="checkbox" checked="checked" name="subscribe"> Remember personal information?
+                          </label>
+                        </div>
+                      
+                        <div class="container1">
+                          <input type="submit" value="SEND">
+                        </div>
+                      </form> -->
     
     
                     <div class="last-list">
@@ -85,6 +138,12 @@
               
                 </div>
                 <div class="line">
+                    <div class="icons">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
                   
                 </div>
                 
