@@ -465,7 +465,7 @@
         
     }
     .explore{
-        margin-left:-50px;
+        margin-left:-20px;
         
     }
     .section-div{
@@ -563,7 +563,6 @@
     }
     .world{
         margin-left:100px;
-        margin-top:-80px;
     }
     .hello{
          font-size:20px;
@@ -700,7 +699,7 @@
      width: 210px;
 }
 .try {
-    margin-left: 100px;
+    margin-left: 10px;
 }
 .down {
     margin-top: 30px;
@@ -765,7 +764,8 @@
         margin-left:130px;
     }
     .section-div{
-        margin-left:0px;
+        margin-left:10px;
+        max-width:380px;
     }
     .present-div span:nth-child(1){
         position: absolute;
@@ -864,13 +864,19 @@
     .hello{
         font-size:20px;
         margin-top:250px;
+        /* margin-left:110px; */
+    }
+    .world{
+        margin-left:100px;
+        margin-top:10px;
     }
     .explore{
         max-width:100px;
         width:100%;
         height:50px;
-        margin:0 auto;
+        margin-left:10px;
         font-size:15px;
+        margin-top:10px;
     }
     .section-div{
         margin-left:0px;
@@ -1066,12 +1072,18 @@
     }
     .text{
         font-size:25px;
+        margin-left:80px;
     }
     .text1{
         font-size:25px;
+        margin-left:80px;
+    }
+    .hello{
+        margin-left:0px;
     }
     .world{
-        margin-left:70px;
+        margin-left:115px;
+        margin-top:25px;
     }
     .explore{
         max-width:100px;
